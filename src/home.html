@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../dist/bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.22.0/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="main-header">
+        <nav class="flex flex-jc-sb">
+          <div class="flex">
+            <a href="./home.html" class="main-header__logo">
+              <img src="../static/images/logo.png" alt="Sabka Bazar" />
+            </a>
+            <!-- Menu Links -->
+            <div class="main-header__menu">
+              <ul>
+                <li><a href="./home.html"> Home</a></li>
+                <li><a href="./products.html"> Products</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="main-header__cta-container">
+            <div class="main-header__login">
+              <a href="./login.html">SignIn</a>
+              <a href="./register.html">Register</a>
+            </div>
+  
+            <a href="#" class="cart-button">
+              <i class="fas fa-shopping-cart"></i> 0 items
+            </a>
+          </div>
+        </nav>
+      </header>
+
+    <main class="container">
+     <!-- offer slideshow -->
+        <div class="slideshow-container">
+            <!-- Next and previous buttons -->
+            <a class="prev" >PREV</a>
+            <a class="next" >NEXT</a>
+        </div>
+        <div id="slideshow-dots" style="text-align:center">
+        </div>
+        <div id="categories">
+
+        </div>
+    </main>
+    <footer class="footer">
+       <p>Copyright &copy; 2011-2018 Sabka Bazaar grocery Supplies Pvt ltd</p>
+    </footer>
+    <script src="../dist/bundle.js"></script>
+</body>
+</html>
